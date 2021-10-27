@@ -1,0 +1,71 @@
+Classes
+	Tipos mais fundamentais do C# 
+	
+	É uma estrutura que combina estados (campos) e ações (métodos).
+	
+	
+	Membros:
+		Podem ser estaticos (pertencem a classe) ou membros da instância (pertence ao objeto).
+			
+		Ex: constante, vartiaveis, metodos, propiedades, construtores, etc.
+		
+		Cada membor tem uma acessibilidade associada:
+			public - qualquer parte do codigo pode acessar;
+			protected - classes filhas podem acessar;
+			internal - só é acessado de dentro do assembly que faz parte (cs project);
+			private - só pode ser acessado dentro da classe que está contido.
+			
+	
+	Métodos
+		representam ação que pode ser executtada por objeto ou classe
+		poder ter uma lista de paramentros (valores ou referencias de variáveis);
+		
+		nomenclatura:
+			metodo = verbo > ação
+			propiedades = substantivos;
+		
+		Herança
+		
+		uma classe base pode ter membros, e classes filhas podem herdar 
+		os membros que tem acesso (public, internal e protected);
+	
+		Omitir uma especificação de classe base = derivar do tipo object
+		
+Objetos 
+	São instancias de uma classe (a classe é a estrutura) 
+	criadas usando operador new
+	
+	Suportam herança e polimorfismo:
+		Mecanismos pelos quais as classes derivadas podem estender e especializar as classes base
+	
+	A memória ocupada por um objeto é recuperada automaticamente (garbage colector).
+
+
+
+	-- "Virtual" permite que uma classe filha mude a atuação com o public "override" void
+	
+ 	--"stattic" so pertence a classe pode ser chamado pela instancia do objeto
+
+notações	
+	ref -> variavel chamada por referencia
+	out-> uma referencia que recebe valor dentro do metodo
+
+Structs - possuem membros de dados e de ação, mas diferente das classes, são tipo de valor e não
+	requerem alocação de heap.
+
+	Não aceita herança!!!!
+
+	pequenas estruturas de dados que possuem semantica de valor -> reduz alocação de memoria
+
+Interfaces - contrato implementado por classes e structs.
+	comtem metodos (principalmente), propriedades eventos e indexadores.
+
+	A interface não implementa (não é comum, mas possivel), geralmente possui a assinatura do metodo
+	que define.
+
+	Permite implementar multiplas interfaces, mas todos os metodos tem que ser implementados
+
+Enums - tipo de valor distinto com um conjunto de constantes nomeadas.]	
+
+
+

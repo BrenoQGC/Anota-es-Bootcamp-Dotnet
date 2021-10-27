@@ -1,0 +1,122 @@
+Paradigmas de Programação:
+	São modos diferentes de montar a estrutura e execução de um código.
+	
+	>Cada um surge de uma necessidade e para um fim com suas vantagems e desvantagens
+		-OOP
+		-Programação estruturada
+		
+	PE vs OOP
+	
+	Programação Esturturada:
+	
+		Interpretação linha por linha em pequenos trechos de codigo;
+			-> não precisa de uma ordem específica;
+					>estruturas para navegar pelo codigo:
+					
+					Sequencia: comandos executados linha a linha, comandos basicos;
+					
+					Seleções: Sequencias condicionais (if, else, switch, etc);
+					
+					Repetição: Sequencias que são executadas repetidamente até satisfazer uma condição.
+					
+	Programação OOP
+	
+		baseada no conceito de objetos na forma de campos (atributos), e codigos na forma de procedimentos (métodos).
+		
+		pode ser visto como uma "máquina independente"
+		
+		
+		Para ser considerado OOP é necessario seguir os 4 PILARES DA PROGRAMAÇÃO ORIENTADA A OBJETO:
+		
+			-Abstração:
+			-Escapsulamento:
+			-Herança
+			-Polimorfismo.
+			
+		TUDO EM .NET É OBJETO, mesmo os tipos de dados mais simples, pois contem metodos e propriedades.
+		
+	
+	Classes:
+		Um molde do objeto, define os atributos e métodos comuns que serão compartilhados por um objeto.
+		
+		Diagrama de classes
+	
+	Tipos por valor
+		S'ao gerenciados diretamente na memoria
+			- Todos os tipos de dados numericos
+			- nao inicializado com new
+			- a variavel armazena valor diretamente
+	
+			- Double e Float - operaç~poes de ponto flutuante ( não gera erro)
+			-char (unicode)
+
+		A atribui;'ao de uma variavel a ela mesma cria uma copia
+		n'ao podem conter null.
+		
+
+	
+	Tipos por Referencia
+		Armazena uma referencia a seus dados
+			- duas variaveis podem apontar por mesmo objeto, e uma operação em uma, muda ambas
+			- strings, classes e arrays.
+			- String aceita uma sequencia ate 1GB - imutaveis, não podem ser manipuladas após criadas,
+				operações com string 
+			- Classes - criadas pelo programador, sempre derivadas de um object. 
+			Uma classe pode derivar de uma unica outra classe, e tambem de varias outras interfaces
+			-Array (matrizou vetor) uma lista de vetores onde todos os valores no grupo são referenciados pelo 
+				nome da matriz e o índice, uma matriz é um vetor de vetores 
+	
+	Tipos Ponteiro
+		- Tipo de dado cujo o valor se refere a outro valor alocado em outra area da memoria	
+		- armazena o endereço
+		
+	Métodos
+		Determinam o comportamento dos objetos de uma classe,
+		podem controlar o estado de um objeto   -> Funções que executam tarefa
+		
+		Podem retornar ou não valores.
+		Podem receber ou não parametros.
+		
+		Chamada de métodos
+			Quando chamamos os metodos (trocamos mensagens) pode alterrar o estado.
+			Temos como difudindos o Get Set ou Construct
+		
+		TIPOS DE METODOS
+			Get
+				os Getters acessam informações de um objeto (ex: produto) sem dar acesso diretamente a ele > Barreira de proteção para os dados.
+				
+			Set
+				Os Setter são metodos modificadores, enviam o pedido de alteração da informação de um atributo dentro daquela instancia, sem que se altere o mesmo.
+				
+			Construc
+				O método construtor inicializa a classe (da forma), inicia a construção daquelas funções,
+				Nele indicamos os valores dos campos das classes.
+				
+				Regras do construtor	
+					- mesmo nome da classe
+					- não tem tipo de retorno
+					- é executado apenas um, uma vez, no momento da criação do objeto
+					- não pode ser chamado diretamente
+					- deve ser public para poder acessas qualquer classe, atributo e metodo, para dar inicio àquela funcionalidade.
+					
+	Propriedades 
+		Forma mais inteligente de fazer implementações de campos em classes.
+		
+		Consistem em um par de métodos Get e Set que servem para recuperar e atribuir o valor a um campo
+			
+		Para cada método existe uma variável dentro da classes que armazena o valor da propriedade.
+		
+			> pode usar propriedades de cor, texto, tamanho, depende das ações dos atributos que um objeto possui.
+				é manipulado com basse na classe ("a planta").
+	Eventos
+	
+		São mensagens (chamadas) que a classes dispara em determinada situação.
+		
+		É necessário que o um método seja escrito para ser executado de acorto com o evento (EX: clicar ou passar o mouse sobre, disparam determinados eventos).
+		
+		DELEGATE
+			usado para fazer o evento funcionar, é uma variavel que armazena o endereço de uma função (método).
+			quando o evento é disparado, o Delegate chama a função relacionado ao evento.
+		
+		
+		

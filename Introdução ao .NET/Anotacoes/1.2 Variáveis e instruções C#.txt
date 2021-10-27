@@ -1,0 +1,38 @@
+Variaveis
+
+	Tipo valor: contem diretamente seus dados.
+	não é possível que as operações afetem outras variáveis (exeção ref e out, que indicam endereço de valor).
+	
+		tipos numericos: sbytte, short, int, long, byte, ushort, uint, ulong
+		
+		caracter unoicode: char
+		
+		pontos flutuantes: float, double, decimal
+		
+		booleano: bol 
+		
+		+ enum, struct, tipos nullable (exemplo int? -> pode ser null).
+		
+	Tipo de Referencia
+		armazenam referencias a seus dados.
+		É possível que duas variáveis fassam referencia e afetem o mesmo objeto.
+		
+			Tipos Classe: class, object, string
+			
+			Tipos Arrays: int[], int[,], etc...
+			
+			interface, delegate.
+			
+	Instruções:
+		são as ações de um programa .
+		{
+		um bloco permite que varias intruções sejam escritas em contextos
+		}
+		
+		Declaração de variaveis e constantes
+		if						break
+		switch					continue
+		while					return   insturções que auxiliam instruções anteriores
+		do 						throw
+		for 					try .. catch .. finally tratrativas de exeptions
+		foreach					using  importar referencias dentro das classes.

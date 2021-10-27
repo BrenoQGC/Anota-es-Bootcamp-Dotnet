@@ -1,0 +1,14 @@
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.exe
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.deps.json
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.runtimeconfig.json
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.runtimeconfig.dev.json
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.dll
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.pdb
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.csproj.AssemblyReference.cache
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.AssemblyInfoInputs.cache
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.AssemblyInfo.cs
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.csproj.CoreCompileInputs.cache
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.dll
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.pdb
+D:\Workspace\Bootcamp .NET+C#\Exemplos prof\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.genruntimeconfig.cache

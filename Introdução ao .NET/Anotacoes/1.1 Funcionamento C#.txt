@@ -1,0 +1,43 @@
+C#
+
+https://github.com/gabrielfbarros/csharp-examples
+
+lingauagem final da decada de 90
+lançada em 2002
+
+Linguagem elegante, orientada o Objetos e fortemente tipada
+
+sintaxe similar a do C, C++ ou Java.
+
+Suporta os conceitos de encapsulamento, herança e polimorfismo (OO)
+
+Programas C# são execurados no .NET, que inclui:
+	CLR common language runtime
+	Conjunto unifcado de bibliotecas (ler arquivos independente do formato, classes para tratativa de data e hora e outros recursos)
+
+compilador é o Roslyn, de codigo aberto [IMG: 1.1 Funconamento C# ]
+	Codigo - > Roslyn compilada numa IL -> gera assembly -> assembly carrega no CLR -> compilação just in time (jit) -> linguagem de maquina nativa.
+
+	
+Os códigos e os recursos de IL são armazenados no disco em um executavel chamado assembly (.exe ou .dll dependendo do tipo do programa que esta sendo executado)
+	
+Outros serviços do CLR
+	-Garbage Colector, limpa a memoria;
+	-Exception Handler, controla exeções de erros na execuçção do codigo;
+	-Resources Manager, gerenciador de recursos.
+
+Estrutura de Programas
+
+Os principais conceitors organizacionais em C# são:
+	-Programas (ou projetos);
+	-Namespaces contidos nos programas que podem ter (dois arquivos podem estar no mesmo namespace).
+		-tipos -> classes e interfaces.
+		-membros -> campos, métodos, propiedades e eventos.
+	-assemblies
+	
+Programas são formados por um ou mais arquivos ( .cs)
+
+Os programas declaram tipos, que contem membros e podem ser organizados em namespaces.
+dd
+	CLASSES ANIINHADAS -classes dentro de classes;
+	
