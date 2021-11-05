@@ -1,0 +1,4 @@
+Solução - Base do programa C#, uma solução como todo, incluindo varios projetos
+
+Dominio - Informações da aplicação, numa camada para ter organização.
+

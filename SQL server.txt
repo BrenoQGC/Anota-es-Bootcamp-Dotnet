@@ -1,0 +1,26 @@
+ O que são SGBDs:
+	Softwares para padronizar banco de dados.
+	funciona como uma interface entre os dados e sistemas/pessoas
+	
+	Tipos
+		Relacionais (SQL server Oracel MySQL)
+			são pra sistemas que precisam de uma confiabilidade grande dos dados:
+			vendas, controle forte de estoque etc
+		NoSQL (MongoDB, Neo4j, Firebase)
+			Voltados para outros cenarios, como performance, permitindo grande volume de dados
+			
+	Tabela no PD é como uma planilha
+		cada registro é uma linha
+		cada coluna são as informações/dados do registro
+		
+		Tipo da coluna: insica a informação  a ser armazenada
+			Atomicidade - garante que todos os dados estão corretos antes de colocar numa tabela
+			
+			Consistencia dos dados - A informação so persiste num ciclo quando ela esta pronta em todos os bancos.
+									- uma consulta so pode ser feita quando o dado persiste
+				reduzir concorrencia e carga do banco de dados criando novas instancias
+				espelhar banco em tempo real.
+				
+				
+			
+		
