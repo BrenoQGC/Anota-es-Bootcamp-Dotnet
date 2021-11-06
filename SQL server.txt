@@ -21,6 +21,7 @@
 				reduzir concorrencia e carga do banco de dados criando novas instancias
 				espelhar banco em tempo real.
 				
+			
 				
 			
 		

@@ -1,0 +1,21 @@
+create database "Nomedobanco" -> cria um novo banco de dados
+
+drop table "Nomedobanco" -> deleta tabela
+
+alt + F1 - nome da tabela selecionado - informações
+
+select * from - seleciona todos
+
+insert:
+	insert into clientes (codigo, nome, TipoPessoa) values (1, 'Breno', 'F');
+	insert clientes (codigo, nome, TipoPessoa) values (1, 'Breno', 'F');
+	insert clientes (codigo, nome, TipoPessoa) values (1, 'Breno', 'F');
+	insert clientes values (1, 'Breno', 'F');
+	insert clientes values (1, 'Breno', 'F'), (1, 'Breno', 'F');
+	
+Update:
+	update clientes set Codigo = 7, Nome = 'Jose' where TipoPessoa = 'J'
+	
+Delete:
+	delete from clientes where Codigo in(5,4,3,2)
+
