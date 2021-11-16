@@ -37,4 +37,7 @@ Criar chave estrangeira:
 	
 Contorlar inserção chave primaria
 	Clique direito na tabela > Design > Especificação de Identidade (campos int)
+	
+Criar chave estrangeira	
+	alter table PedidoItem add constraint fk_pedido foreign key (CodigoPedio) references Pedido (Codigo)
 
