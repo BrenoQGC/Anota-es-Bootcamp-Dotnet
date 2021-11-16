@@ -1,12 +1,12 @@
- O que são SGBDs:
+ O QUE SÃO SGBDS:
 	Softwares para padronizar banco de dados.
 	funciona como uma interface entre os dados e sistemas/pessoas
 	
 	Tipos
-		Relacionais (SQL server Oracel MySQL)
+		RELACIONAIS (SQL server Oracel MySQL)
 			são pra sistemas que precisam de uma confiabilidade grande dos dados:
 			vendas, controle forte de estoque etc
-		NoSQL (MongoDB, Neo4j, Firebase)
+		NOSQL (MongoDB, Neo4j, Firebase)
 			Voltados para outros cenarios, como performance, permitindo grande volume de dados
 			
 	Tabela no PD é como uma planilha
@@ -14,14 +14,33 @@
 		cada coluna são as informações/dados do registro
 		
 		Tipo da coluna: insica a informação  a ser armazenada
-			Atomicidade - garante que todos os dados estão corretos antes de colocar numa tabela
+			ATOMICIDADE - garante que todos os dados estão corretos antes de colocar numa tabela
 			
-			Consistencia dos dados - A informação so persiste num ciclo quando ela esta pronta em todos os bancos.
+			CONSISTENCIA DOS DADOS - A informação so persiste num ciclo quando ela esta pronta em todos os bancos.
 									- uma consulta so pode ser feita quando o dado persiste
 				reduzir concorrencia e carga do banco de dados criando novas instancias
 				espelhar banco em tempo real.
 				
-			
+	Bancos relacionais são altamente tipados
+		int
+		bigint
+		varchar() -> limite dentro do parenteses (ate 4000)
+		char -> igual o varchar, mas enche o restante do campo com espaços
+		
+	funções metodos encapsulados que ja possuem uma dinamica propia para atender uma solicitação
+	
+	CHAVE PRIMARIA
+		Identifica um registro, 
+		tem que ser unica
+		Gera melhor performace, idexando todos os registros, query mais rapida.
+		Pode ser unica ou composta
+		
+		Comum criar coluna numerica, ou usar dado unico como CPF
+	
+	CHAVE ESTRANGEIRA
+	
+	faz a relação de uma tabela com outra
+
 				
 			
 		

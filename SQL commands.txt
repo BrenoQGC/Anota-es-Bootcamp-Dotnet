@@ -5,6 +5,18 @@ drop table "Nomedobanco" -> deleta tabela
 alt + F1 - nome da tabela selecionado - informações
 
 select * from - seleciona todos
+	
+	select *, convert(varchar, DataSOlicitacao) from Pedido 
+	select *, convert(varchar, DataSOlicitacao, 103) from Pedido
+
+
+		Especificidades so comando Select
+		
+		isnull(Campo, retorno) -> se o campo for nulo retorna o segundo parametro
+
+		select *, case when IpoPessoa = 'J' then 'Juridica' end -> exibe juridica onde TipoPessoa for J
+		
+		select isnull(DataCriacao, getdate()), * from clientes -> retorna todos registros onde DataCriacao é nulo, e exibe com data atual.
 
 insert:
 	insert into clientes (codigo, nome, TipoPessoa) values (1, 'Breno', 'F');
@@ -18,4 +30,11 @@ Update:
 	
 Delete:
 	delete from clientes where Codigo in(5,4,3,2)
+	
+Criar chave estrangeira:
+
+	alter tavle Clentes add contraint pl_cliente primary key (Codigo)
+	
+Contorlar inserção chave primaria
+	Clique direito na tabela > Design > Especificação de Identidade (campos int)
 
